@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Filterable Data Table</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+  <div class="container">
+    <h2>Filterable Data Table</h2>
+    <input type="text" id="searchInput" placeholder="Type to filter...">
+
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Mango</td><td>Fruit</td><td>Food</td></tr>
+        <tr><td>Potato</td><td>Vegetable</td><td>Food</td></tr>
+        <tr><td>Laptop</td><td>Electronics</td><td>Device</td></tr>
+        <tr><td>Hoddie</td><td>Clothing</td><td>Apparel</td></tr>
+        <tr><td>Orange</td><td>Fruit</td><td>Food</td></tr>
+      </tbody>
+    </table>
+
+    <p id="noResult" class="no-result" style="display:none;">No matching records found</p>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
